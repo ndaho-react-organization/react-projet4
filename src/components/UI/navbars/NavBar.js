@@ -1,5 +1,4 @@
 import React from 'react';
-import { NavLink } from 'react-router-dom';
 import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
 import { LinkContainer } from 'react-router-bootstrap'
@@ -7,7 +6,6 @@ import { LinkContainer } from 'react-router-bootstrap'
 const NavBar = (props) => {
     return (
         <>
-
             <Navbar bg="dark" variant="dark" expand="lg">
                 <LinkContainer to="/">
                     <Navbar.Brand href="/">Ille et vilaine</Navbar.Brand>
