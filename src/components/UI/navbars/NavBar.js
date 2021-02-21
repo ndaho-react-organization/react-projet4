@@ -10,9 +10,9 @@ const NavBar = (props) => {
                 <LinkContainer to="/">
                     <Navbar.Brand href="/">Ille et vilaine</Navbar.Brand>
                 </LinkContainer>
-                <Navbar.Toggle aria-controls="basic-navbar-nav" />
-                <Navbar.Collapse id="basic-navbar-nav">
-                    <Nav className="mr-auto">
+                <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+                <Navbar.Collapse id="responsive-navbar-nav">
+                    <Nav className="ml-auto">
                         <LinkContainer exact to="/">
                             <Nav.Link>Accueil</Nav.Link>
                         </LinkContainer>
