@@ -1,12 +1,15 @@
-h1,h2,h3{
+h1,
+h2,
+h3 {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif !important;
 }
 
-.site{
-    min-height: 100vh;
-    margin-bottom: -40px;
+.site {
+    min-height   : 100vh;
+    margin-bottom: -60px !important;
 }
 
-footer,.miniSiteMarge{
-    height: 40px;
+footer,
+.miniSiteMarge {
+    height: 60px;
 }

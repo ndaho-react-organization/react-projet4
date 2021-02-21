@@ -17,10 +17,10 @@ class Site extends Component {
                     <NavBar></NavBar>
                     <Container fluid>
                         <Switch>
-                            <Route path="/" exact render={() => <Accueil>Accueil</Accueil>} />
-                            <Route path="/localisation" exact render={() => <Localisation>Localisation</Localisation>} />
-                            <Route path="/contact" exact component={Contact} />
-                            <Route exact render={() => <Erreur><Erreur404 typeErreur="alert-danger" /></Erreur>} />
+                            <Route path="/" exact render={() => <Accueil/>} />
+                            <Route path="/localisation" render={() => <Localisation/>} />
+                            <Route path="/contact"  render={(props) => <Contact {...props}/>} />
+                            <Route  render={() => <Erreur><Erreur404 typeErreur="alert-danger" /></Erreur>} />
                         </Switch>
                     </Container>
                 </div>
