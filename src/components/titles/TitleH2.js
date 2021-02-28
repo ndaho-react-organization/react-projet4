@@ -1,5 +1,4 @@
 import React from 'react';
-import classes from './TitleH2.module.css'
 
 const TitleH2 = (props) => {
      return(
